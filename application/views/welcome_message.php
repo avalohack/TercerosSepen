@@ -185,7 +185,7 @@ for ($i=0; $i < count($archgivos) ; $i++) {
 					</div>
 
 					<div class = "modal-body">
-					<iframe id="showPDF" width="100%" height="700" src="<?php echo base_url()."/terceros/$seg3/$seg4/".$archgivos[$i]?>" width="700" height="1000" style="border: none;"></iframe>
+					<iframe id="showPDF" width="100%"  src="<?php echo base_url()."/terceros/$seg3/$seg4/".$archgivos[$i]?>" width="700" height="1000" style="border: none;"></iframe>
 
 					</div>
 
@@ -193,6 +193,9 @@ for ($i=0; $i < count($archgivos) ; $i++) {
 						<button type = "button" class = "btn btn-default" data-dismiss = "modal">
 							Cerrar
 						</button>
+
+
+						
 
 					</div>
 				</div><!-- /.modal-content -->

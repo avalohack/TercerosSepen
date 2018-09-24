@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hola soy Adrian Garcia Saaib</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" alt="normalmente llamado favicon">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+
+    <!--    cabecera          -->
+    <header class="header">
+      <div>
+        <figure class="logo">
+          <img src="images/logo.png" alt="Logo de http://garciasaaib.com" >
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="./portafolio/" >Portafolio</a><!--si fuera /portafolio me manda a una ruta-->
+            </li>
+            <li>
+              <a class="link" href="#eventos" >Experiencia</a>
+            </li>
+            <li>
+              <a class="link" href="#contacto" >Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+
+
+    <!--   Seccion principal  -->
+    <section class="hero">
+      <h1>
+        Hola soy <strong>Adrian Garcia Saaib</strong>
+        <br>Desarrollador <strong>JavaScript</strong> con
+        <br/>pasión en interfaces <stong>alucinantes</strong>
+      </h1>
+      <!-- <img src="images/hero.jpg" width="500" height="300" alt="imagen principal del sitio. Normalmente a esta imagen se le llama hero"> -->
+    </section>
+
+
+    <!-- seccion portafolios  -->
+    <section class="portfolio">
+      <h2>Portafolio (Proyectos Destacados)</h2>
+      <article class="proyect"> <!-- articulo con descripcion -->
+        <div class="proyect-details"><!--para los detalles del Proyectos-->
+          <h3 class="proyect-title">Aplicación SEPEN Terceros</h3>
+          <h6 class="proyect-course">HTML / CCS / JavaScript / PHP</h6>
+          <p class="proyect-date"><small><strong>Fecha:</strong> 01/09/2018</small></p>
+          <p class="proyect-description"><small><strong>Puedes verlo en </strong>www.transparencia.sepen.gob.mx/terceros</small></p>
+          <P>El portal de sepen tiene la opcion de ver documentacion personal, con permiso de usuarios,
+            de los permisos y descuentos que se realizan por medio de su rfc, para realizar aclaraciones
+            sobre los eventos economicos de la comunidad educativa en Nayarit</p>
+        </div>
+        <figure class="proyect-imageWrapper">
+          <img class="proyect-image" src="images/sepen.jpg" width="500" alt="SEP del estado de Nayarit">
+        </figure>
+      </article>
+    </section>
+
+
+    <!-- seccion de eventos  -->
+    <section id="eventos">
+      <h2>Más sobre mi experiencia</h2>
+      <article class="event">
+        <figure class="event-imageWrapper">
+          <img class="event-image" src="images/platzi-conf.jpg" width="500"/>
+        </figure>
+        <h3 class="event-title">PlatziConf 2019</h3>
+        <p class="event-description">Fui al evento mas grande de la gente que quiere aprender por internet.
+        Siendo parte de la comunidad que aprende por sus propios medios y meritos.
+        Donde conocí a muchas de las personalidades destacadas y otros estudiantes</p>
+        <a class="event-url" target="_blank" href="https://www.meetup.com/es/platzi-mexico-city/events/221761778/">Ver evento</a>
+      </article>
+    </section>
+
+
+    <!--   seccion de contactos     -->
+    <section id="contacto" class="contact">
+      <form class="form-email" action="/suscripcion/">
+        <h3>¿Creamos algo juntos?</h3>
+        <input type="text" placeholder="Dejame tu e-mail" id="email">
+        <button>Enviar</button>
+      </form>
+    </section>
+
+
+    <!--  pie de pagina  -->
+    <footer class="footer">footer</footer>
+  </body>
+</html>
